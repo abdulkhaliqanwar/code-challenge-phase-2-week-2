@@ -1,0 +1,54 @@
+
+.app {
+  padding: 20px;
+}
+
+.bot-collection, .your-army {
+  margin: 20px 0;
+}
+
+.bots-grid, .army-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.bot-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.bot-card:hover {
+  transform: scale(1.02);
+}
+
+.bot-card.enlisted {
+  border-color: #4CAF50;
+  background-color: #f0fff4;
+}
+
+.army-card {
+  position: relative;
+  border: 1px solid #2196F3;
+  padding: 15px;
+  background-color: #e3f2fd;
+}
+
+.discharge-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #ff4444;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
