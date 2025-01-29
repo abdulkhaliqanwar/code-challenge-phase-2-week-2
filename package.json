@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "name": "bot-battlr",
   "private": true,
   "version": "0.0.0",
